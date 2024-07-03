@@ -1,0 +1,13 @@
+body{
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.blurred-div {
+  background: rgba(224, 216, 216, 0.6); /* Adjust the alpha value for transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur radius */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  padding: 20px;
+  border-radius: 15px; /* Optional: for rounded corners */
+}
